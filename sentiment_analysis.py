@@ -7,7 +7,7 @@ nlp=spacy.load('en_core_web_sm')
 data=pd.read_csv("amazon_product_reviews.csv", low_memory=False)
 print(data.head()) #printing first 5 rows of data
 
-print('Shape of data is: ', data.shape) #finding number of rows and columns in data, rows=34660, columns=21
+print('Shape of data is: ', data.shape) #finding number of rows and columns in data
 
 print('\n')
 
